@@ -1,0 +1,17 @@
+name: crm-agent
+display_name: CRM Agent
+description: >-
+  A simple CRM agent backed by Airtable. Bootstraps a Contacts table
+  automatically and processes natural language to create, find, and
+  update contacts. Designed as a template to extend with channels
+  like SMS, email, or Slack.
+category: utilities
+connectors:
+  - catalog: airtable-mcp
+    description: >-
+      Provides read/write access to Airtable bases, tables, and records
+      for all CRM data operations.
+    slot_descriptions:
+      AIRTABLE_PERSONAL_ACCESS_TOKEN: >-
+        Personal access token with data.records:read, data.records:write,
+        schema.bases:read, and schema.bases:write scopes
