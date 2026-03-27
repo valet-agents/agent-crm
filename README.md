@@ -1,6 +1,6 @@
 # CRM Agent
 
-A simple CRM agent backed by Airtable. Bootstraps a Contacts table automatically and processes natural language to create, find, and update contacts. Designed as a template to extend with channels like SMS, email, or Slack.
+A [Valet](https://valet.dev) agent that uses Airtable as a simple CRM. Bootstraps a Contacts table automatically and processes natural language to create, find, and update contacts. Designed as a template to extend with channels like SMS, email, or Slack.
 
 ## Prerequisites
 - An [Airtable](https://airtable.com) account with a personal access token (`data.records:read`, `data.records:write`, `schema.bases:read`, `schema.bases:write` scopes)
