@@ -14,7 +14,7 @@ Describe a contact in plain English. The agent finds or creates the record in [A
   <tr>
     <td colspan="2" align="center">
       <br />
-      <a href="https://dashboard.valet.dev/setup/configure?from=github.com/valet-agents/agent-crm">
+      <a href="https://dashboard.valet.dev/deploy?from=github.com/valet-agents/agent-crm">
         <img src="https://raw.githubusercontent.com/valet-agents/agent-crm/main/.github/deploy-button.svg" alt="Deploy Agent →" height="40" />
       </a>
       <br /><br />
