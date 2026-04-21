@@ -1,6 +1,6 @@
 # CRM Agent
 
-A simple CRM agent backed by Airtable. Bootstraps a Contacts table automatically and processes natural language to create, find, and update contacts. Designed as a template to extend with channels like SMS, email, or Slack.
+Describe a contact in plain English. The agent finds or creates the record in [Airtable](https://airtable.com) and shows you exactly what changed.
 
 ## Prerequisites
 - An [Airtable](https://airtable.com) account with a personal access token (`data.records:read`, `data.records:write`, `schema.bases:read`, `schema.bases:write` scopes)
