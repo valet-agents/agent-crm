@@ -29,10 +29,6 @@ connectors:
     description: >-
       Provides read/write access to Airtable bases, tables, and records
       for all CRM data operations.
-    slot_descriptions:
-      AIRTABLE_PERSONAL_ACCESS_TOKEN: >-
-        Personal access token with data.records:read, data.records:write,
-        schema.bases:read, and schema.bases:write scopes
     ui:
       headline: "Hook up the Airtable that holds your CRM."
       blurb: "The agent bootstraps a Contacts table in your 'Agent-CRM' base on first run. One token, scoped to the bases you pick."
