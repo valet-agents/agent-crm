@@ -8,6 +8,9 @@ description: >-
 category: utilities
 author: Valet
 
+example:
+  prompt: "Add Maya Chen at Acme as a new contact."
+
 story:
   hero: "A CRM that lives in your Airtable — talk to it like a teammate."
   subheadline: "Describe a contact in plain English. The agent finds or creates the record in Airtable and shows you exactly what changed."
